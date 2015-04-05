@@ -12,6 +12,10 @@ gem 'therubyracer', platforms: :ruby  # See https://github.com/rails/execjs#read
 gem 'jquery-rails'                    # Use jquery as the JavaScript library
 gem 'turbolinks'                      # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 
+## SPA #######################################
+gem 'react-rails', '~> 1.0.0.pre', github: 'reactjs/react-rails'
+
+
 ## REST and APIs #############################
 gem 'jbuilder', '~> 2.0'              # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 
